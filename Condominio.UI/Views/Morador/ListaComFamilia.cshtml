@@ -1,0 +1,26 @@
+﻿
+<h1>Moradores</h1>
+<p class="lead">Listagem de Moradores com Família</p>
+
+<table class="table table-striped table-hover">
+
+    <thead class="thead-dark">
+        <tr>
+            <th>Nome</th>
+            <th>Quantidade de Animais</th>
+            <th>Família</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Nome</td>
+                <td>@item.Animais</td>
+                <td>@item.Familia</td>
+            </tr>
+        }
+    </tbody>
+
+</table>

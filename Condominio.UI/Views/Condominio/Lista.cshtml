@@ -1,0 +1,40 @@
+﻿@model IEnumerable<GestaoCondominio.Domain.Entities.Condominio>
+
+@{
+    ViewData["Title"] = "Lista Condominios";
+}
+
+<h1>Lista Condomínios</h1>
+
+<p>
+    <a asp-action="AddEdit">Criar Novo</a>
+</p>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Bairro)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bairro)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "AddEdit", new { id=item.CondominioId }) |
+                @Html.ActionLink("Delete", "Excluir", new { id=item.CondominioId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

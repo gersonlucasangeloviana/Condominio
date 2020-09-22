@@ -1,0 +1,45 @@
+﻿@model GestaoGestaoCondominio.Domain.Entities.Morador
+
+@{
+    ViewData["Title"] = "AddEdit";
+}
+
+<h1>@(Model == null ? "Adicionar" : "Editar") Morador</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddEdit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group" hidden>
+                <label asp-for="MoradorId" class="control-label"></label>
+                <input asp-for="MoradorId" class="form-control" />
+                <span asp-validation-for="MoradorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FamiliaId" class="control-label"></label>
+                <select class="form-control" asp-for="FamiliaId" asp-items="ViewBag.Familias">
+                    <option value="">Selecione ...</option>
+                </select>
+                <span asp-validation-for="FamiliaId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuantidadeBichosEstimacao" class="control-label"></label>
+                <input asp-for="QuantidadeBichosEstimacao" class="form-control" />
+                <span asp-validation-for="QuantidadeBichosEstimacao" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Enviar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,5 @@
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Domain\bin\Debug\netstandard2.0\Condominio.Domain.deps.json
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Domain\bin\Debug\netstandard2.0\Condominio.Domain.dll
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Domain\obj\Debug\netstandard2.0\Condominio.Domain.csprojAssemblyReference.cache
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Domain\obj\Debug\netstandard2.0\Condominio.Domain.AssemblyInfoInputs.cache
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Domain\obj\Debug\netstandard2.0\Condominio.Domain.AssemblyInfo.cs

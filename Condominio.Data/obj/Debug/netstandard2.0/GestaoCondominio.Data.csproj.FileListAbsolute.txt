@@ -1,0 +1,12 @@
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\bin\Debug\netstandard2.0\GestaoCondominio.Data.deps.json
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\bin\Debug\netstandard2.0\GestaoCondominio.Data.dll
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\bin\Debug\netstandard2.0\GestaoCondominio.Data.pdb
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\bin\Debug\netstandard2.0\GestaoCondominio.Domain.dll
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\bin\Debug\netstandard2.0\GestaoCondominio.Domain.pdb
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.csprojAssemblyReference.cache
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.AssemblyInfoInputs.cache
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.AssemblyInfo.cs
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.csproj.CoreCompileInputs.cache
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.csproj.CopyComplete
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.dll
+C:\Users\gsav\source\repos\TesteAccor\Condominio\Condominio.Data\obj\Debug\netstandard2.0\GestaoCondominio.Data.pdb

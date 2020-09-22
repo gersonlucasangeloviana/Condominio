@@ -1,0 +1,46 @@
+﻿@model IEnumerable<GestaoGestaoCondominio.Domain.Entities.Familia>
+
+@{
+    ViewData["Title"] = "Lista Familias";
+}
+
+<h1>Lista de Famílias</h1>
+
+<p>
+    <a asp-action="AddEdit">Criar Nova</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                Nome Condomínio
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apartamento)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Condominio.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Apartamento)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "AddEdit", new {  id=item.FamiliaId  }) |
+                @Html.ActionLink("Delete", "Excluir", new {  id=item.FamiliaId })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
